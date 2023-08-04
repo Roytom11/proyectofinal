@@ -1,7 +1,8 @@
 import React from "react";
-import '../productos/productos.css'
-import Productos from "../productos/productos";
-import './home.css'
+import Productos from "../productos/productos"
+import "../productos/productos.css" 
+import "../home/home.css"
+import "./wallpaperAsusHome.jpg"
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
     titulo= 'Mouse Pad Gamer XXL RGB'     
     texto='Siente una maxima comodidad y confort con este Pad RGB'
     />
-    <Productos
+     <Productos 
     imagen='2.jpg'
     altImagen = 'Producto 2'
     titulo= 'NVMe SSD M.2 Aorus RGB 512GB'     
@@ -60,12 +61,7 @@ const Home = () => {
     titulo= 'Procesador Ryzen 7 5700G'    
     texto='Procesador con graficos integrados incluidos'
     />
-    <Productos
-    imagen='10.jpg'
-    altImagen = 'Producto 10'
-    titulo= 'Cooler CPU ID-COOLING'     
-    texto='ID-COOLING te garantiza calidad en todos sus coolers'
-    />
+   
     </div>
     );
   }

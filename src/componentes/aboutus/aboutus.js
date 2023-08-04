@@ -8,7 +8,7 @@ const AboutUs = () => {
     const [nombre, setNombre] = useState ('Presiona el Boton');
 
     const cambiarNombre = () => {
-        setNombre ('MercadoGamer te saluda, que tengas un dia de perlas :D')
+        setNombre ('MercadoGamer te saluda, que tengas un muy buen dia :D')
     }
 
     return (
