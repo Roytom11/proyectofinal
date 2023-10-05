@@ -55,6 +55,12 @@ const servicio = {
       titulo: 'Procesador Ryzen 7 5700G'    ,
       texto:'Procesador con graficos integrados incluidos',
     },
+    {
+        imagen:'10.jpg',
+        altImagen: 'Producto 10',
+        titulo: 'Cooler CPU ID-COOLING',
+        texto:'ID-COOLING te garantiza calidad en todos sus coolers'
+    },
   
   ]
 }
