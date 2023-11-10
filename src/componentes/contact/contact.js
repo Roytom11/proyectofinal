@@ -44,7 +44,7 @@ const Contact = () => {
             {errors.edad?.type === 'maxLength' && <p className="font-size">
             El campo "Edad" debe tener menos de 3 caracteres.</p>}
 
-            <label htmlFor="email" className="letra"> Correo Electrónico</label>
+            <label htmlFor="email" className="letra"> Correo Electrónicoo</label>
             <input type="email" name="correo" id="email"
             {...register('email', {
                 required:true,
