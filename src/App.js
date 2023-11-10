@@ -30,5 +30,5 @@ function App() {
     </div>
   ); 
 }
-// DALEE
+
 export default App;
